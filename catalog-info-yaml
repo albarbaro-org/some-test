@@ -31,5 +31,6 @@ metadata:
   annotations:
     backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/playlist'
 spec:
-  type: service
+  type: library
+  owner: Myself
   lifecycle: experimental
