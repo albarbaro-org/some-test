@@ -1,6 +1,6 @@
-site_name: backstage-showcase
-site_description: 'User documentation for Janus Showcase'
-repo_url: https://github.com/janus-idp/backstage-showcase
+site_name: some-test
+site_description: 'User documentation for Test'
+repo_url: https://github.com/albarbaro-org/some-test
 edit_uri: edit/main/docs
 
 plugins:
