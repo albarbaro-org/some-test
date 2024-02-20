@@ -1,7 +1,5 @@
 site_name: some-test
 site_description: 'User documentation for Test'
-repo_url: https://github.com/albarbaro-org/some-test
-edit_uri: edit/main/docs
 
 plugins:
   - techdocs-core
