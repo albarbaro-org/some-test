@@ -33,6 +33,8 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     lighthouse.com/website-url: https://backstage.io
     backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/playlist'
+    quay.io/repository-slug: abarbaro/busybox
+    backstage.io/techdocs-ref: url:https://github.com/albarbaro-org/some-test
 spec:
   type: library
   owner: Myself
