@@ -8,8 +8,6 @@ plugins:
 
 # Note for content editors, edit only the section below
 nav:
-  - Onboard a developer to OpenShift: index.md
-  - Application Migration:
-      - Migration Process Overview: application-migration/migration-process-overview.md
-      - Migration Process Steps: application-migration/migration-process-steps.md
-      - Learning Path for Developers: application-migration/learning-path-for-developers.md
+  - Onboard: index.md
+  - Test:
+      - Migration Process Overview: test/test.md
