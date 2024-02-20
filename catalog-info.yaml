@@ -2,10 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: albarbaro-tesing
-  title: AlBarbaro Testing
+  title: Albarbaro Testing
   description: Artist Lookup
   tags:
-    - java
+    - albarbaro
     - data
   links:
     - url: https://example.com/user
