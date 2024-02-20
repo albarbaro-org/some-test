@@ -30,7 +30,7 @@ metadata:
       icon: alert
   annotations:
     github.com/project-slug: albarbaro-org/some-test
-    backstage.io/techdocs-ref: url:https://github.com/albarbaro-org/some-test
+    backstage.io/techdocs-ref: dir:.
     lighthouse.com/website-url: https://backstage.io
     backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/playlist'
     quay.io/repository-slug: abarbaro/busybox
