@@ -36,6 +36,7 @@ metadata:
     backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/playlist'
     quay.io/repository-slug: abarbaro/busybox
     backstage.io/kubernetes-namespace: dice-space
+    backstage.io/kubernetes-id: dice-roller
 spec:
   type: library
   owner: Myself
