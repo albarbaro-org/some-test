@@ -35,6 +35,7 @@ metadata:
     lighthouse.com/website-url: https://backstage.io
     backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/playlist'
     quay.io/repository-slug: abarbaro/busybox
+    backstage.io/kubernetes-namespace: dice-space
 spec:
   type: library
   owner: Myself
