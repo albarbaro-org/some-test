@@ -5,4 +5,4 @@ metadata:
   description: A collection of all Backstage example
 spec:
   targets:
-    - ./users.yaml
+    - ./catalog-info.yaml
