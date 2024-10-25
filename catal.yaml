@@ -1,0 +1,38 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: albarbaro-testing-2
+  title: Albarbaro Testing 2
+  description: Artist Lookup 2
+  tags:
+    - albarbaro
+    - data
+  links:
+    - url: https://example.com/user
+      title: Examples Users
+      icon: user
+    - url: https://example.com/group
+      title: Example Group
+      icon: group
+    - url: https://example.com/cloud
+      title: Link with Cloud Icon
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Dashboard
+      icon: dashboard
+    - url: https://example.com/help
+      title: Support
+      icon: help
+    - url: https://example.com/web
+      title: Website
+      icon: web
+    - url: https://example.com/alert
+      title: Alerts
+      icon: alert
+  annotations:
+    backstage.io/kubernetes-namespace: zdrapela-tls
+    backstage.io/kubernetes-id: dice-roller
+spec:
+  type: library
+  owner: Myself
+  lifecycle: experimental
