@@ -32,6 +32,7 @@ metadata:
   annotations:
     backstage.io/kubernetes-namespace: zdrapela-tls
     backstage.io/kubernetes-id: dice-roller
+    backstage.io/techdocs-ref: url:https://github.com/albarbaro-org/some-test/
 spec:
   type: library
   owner: Myself
