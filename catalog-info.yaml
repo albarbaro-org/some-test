@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: albarbaro-testing
-  title: Albarbaro Testing
-  description: Artist Lookup
+  name: techdocs-testing
+  title: Techdocs Testing
+  description: Techdocs Lookup
   tags:
     - albarbaro
     - data
