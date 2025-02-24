@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location-2
+metadata:
+  name: example-location-2
+  description: A collection of all Backstage example number 2
+spec:
+  targets:
+    - ./catalog-info.yaml
