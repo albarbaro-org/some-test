@@ -2,7 +2,7 @@
 # 2 2 2 
 # Headers
 
-![test image](/apple-touch-icon.png "TEST")
+![test image](../package.json "TEST")
 [link](/learning-paths/data.json)
 ```
 # h1 Heading 8-)
