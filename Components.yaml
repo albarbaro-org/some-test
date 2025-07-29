@@ -4,8 +4,6 @@ metadata:
   name: some-tech-docs
   description: A test service for TechDocs integration.
   annotations:
-    # This tells TechDocs to look for mkdocs.yml and docs/
-    # in the root of THIS repository.
     backstage.io/techdocs-ref: url:./
 spec:
   type: service
