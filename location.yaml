@@ -5,9 +5,6 @@ metadata:
   name: example-techdocs-location
   description: Points to a repository containing a catalog-info.yaml with TechDocs
 spec:
-  type: url # Or 'github-entity', 'gitlab-entity', etc. depending on your source
-  # IMPORTANT: The target MUST point to your catalog-info.yaml file
-  target: https://github.com/albarbaro-org/some-test/blob/main/Components.yaml
-  # Or if it's a local file (less common for remote repos):
-  # target: file:///path/to/your/repo/catalog-info.yaml
-  processingStrategy: parse # Use 'parse' for a single file, 'scan' for a directory/org
+  type: url
+  target: https://github.com/albarbaro-org/some-test/main/Components.yaml
+  processingStrategy: parse
