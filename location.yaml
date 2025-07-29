@@ -1,10 +1,11 @@
-# This is the YAML you POST to /locations
+# This is the YAML you would submit to Red Hat Developer Hub
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: example-techdocs-location
-  description: Points to a repository containing a catalog-info.yaml with TechDocs
+  name: some-test-repo-catalog # A unique name for this location entry
+  description: Location pointing to the some-test GitHub repository
 spec:
   type: url
-  target: https://github.com/albarbaro-org/some-test/main/Components.yaml
-  processingStrategy: parse
+  # The target MUST be the URL to your catalog-info.yaml file
+  target: https://github.com/albarbaro-org/some-test/blob/main/catalog-info.yaml
+  processingStrategy: parse # 'parse' because we're pointing to a specific file
