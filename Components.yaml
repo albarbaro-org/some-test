@@ -1,13 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: my-techdocs-example
-  description: My service with TechDocs
+  name: some-test-service # Give your component a meaningful name
+  description: A test service for TechDocs integration.
   annotations:
-    # It tells Backstage where to find the mkdocs.yml and docs folder for THIS entity.
-    backstage.io/techdocs-ref: ./mkdocs.yml
+    # This tells TechDocs to look for mkdocs.yml and docs/
+    # in the root of THIS repository.
+    backstage.io/techdocs-ref: url:./
 spec:
   type: service
-  lifecycle: production
-  owner: guests # Replace with your owner
-  system: default # Replace with your system
+  lifecycle: experimental # Or production, development, etc.
+  owner: guests # Replace with the actual owner/team in your RHDH instance
+  system: some-system # Optional, but good practice
