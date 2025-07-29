@@ -3,7 +3,7 @@
 # Headers
 
 ![test image](../package.json "TEST")
-[link](/learning-paths/data.json)
+[link](../package.json)
 ```
 # h1 Heading 8-)
 ## h2 Heading
