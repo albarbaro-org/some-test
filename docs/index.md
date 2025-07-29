@@ -2,7 +2,7 @@
 # 2 2 2 
 # Headers
 
-![test image](../package.json "TEST")
+![test image](favicon-16x16.png "TEST")
 [link](../package.json)
 ```
 # h1 Heading 8-)
