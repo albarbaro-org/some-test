@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: some-tech-docs
+  name: some-tech-docs-2
   description: A test service for TechDocs integration.
   annotations:
     backstage.io/techdocs-ref: url:https://github.com/albarbaro-org/some-test/tree/main
