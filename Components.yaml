@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: some-test-service # Give your component a meaningful name
+  name: some-tech-docs
   description: A test service for TechDocs integration.
   annotations:
     # This tells TechDocs to look for mkdocs.yml and docs/
