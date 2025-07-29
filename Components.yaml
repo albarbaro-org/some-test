@@ -1,0 +1,16 @@
+# In your Git repository (e.g., at the root, alongside 'mkdocs.yml' and 'docs/')
+# filename: catalog-info.yaml
+apiVersion: backstage.io/v1alpha1
+kind: Component # Or System, API, etc. - this is what Backstage will catalog
+metadata:
+  name: my-techdocs-example
+  description: My service with TechDocs
+  annotations:
+    # THIS IS THE KEY ANNOTATION FOR TECHDOCS
+    # It tells Backstage where to find the mkdocs.yml and docs folder for THIS entity.
+    backstage.io/techdocs-ref: url:./
+spec:
+  type: service
+  lifecycle: production
+  owner: guests # Replace with your owner
+  system: default # Replace with your system
