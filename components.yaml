@@ -4,7 +4,7 @@ metadata:
   name: some-tech-docs
   description: A test service for TechDocs integration.
   annotations:
-    backstage.io/techdocs-ref: url:./
+    backstage.io/techdocs-ref: url:https://github.com/albarbaro-org/some-test/tree/main
 spec:
   type: service
   lifecycle: experimental # Or production, development, etc.
