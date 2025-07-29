@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: example
-  description: A collection of all Backstage example
+  description: Tech Docs Test 2025
 spec:
   targets:
-    - ./catalog-info.yaml
+    - ./mkdocs.yml
