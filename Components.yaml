@@ -6,7 +6,7 @@ metadata:
   annotations:
     # This tells TechDocs to look for mkdocs.yml and docs/
     # in the root of THIS repository.
-    backstage.io/techdocs-ref: url: https://github.com/albarbaro-org/some-test/
+    backstage.io/techdocs-ref: dir .
 spec:
   type: service
   lifecycle: experimental # Or production, development, etc.
