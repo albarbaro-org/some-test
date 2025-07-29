@@ -1,8 +1,13 @@
+# This is the YAML you POST to /locations
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: example
-  description: Tech Docs Test 2025
+  name: example-techdocs-location
+  description: Points to a repository containing a catalog-info.yaml with TechDocs
 spec:
-  targets:
-    - ./mkdocs.yml
+  type: url # Or 'github-entity', 'gitlab-entity', etc. depending on your source
+  # IMPORTANT: The target MUST point to your catalog-info.yaml file
+  target: https://github.com/albarbaro-org/some-test/blob/main/Components.yaml
+  # Or if it's a local file (less common for remote repos):
+  # target: file:///path/to/your/repo/catalog-info.yaml
+  processingStrategy: parse # Use 'parse' for a single file, 'scan' for a directory/org
