@@ -7,5 +7,5 @@ metadata:
 spec:
   type: url
   # The target MUST be the URL to your catalog-info.yaml file
-  target: https://github.com/albarbaro-org/some-test/blob/main/catalog-info.yaml
+  target: https://github.com/albarbaro-org/some-test/blob/main/Components.yaml
   processingStrategy: parse # 'parse' because we're pointing to a specific file
