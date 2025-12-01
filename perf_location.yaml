@@ -6,4 +6,3 @@ metadata:
 spec:
   targets:
     - ./catalog-entities.yaml
-    - ./catalog-entities-2.yaml
