@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-zeus-location
+  description: A collection of all Entities
+spec:
+  targets:
+    - ./catalog-entities-2.yaml
