@@ -9,10 +9,6 @@ metadata:
   annotations:
     # Links to the GitHub repository where the code lives
     github.com/project-slug: acme-corp/order-processor
-    # Links to the CI/CD pipeline in Jenkins
-    jenkins.io/job-full-name: team-ecom/order-processor-pipeline
-    # Links to the monitoring dashboard in Grafana
-    grafana/dashboard-id: "12345"
   # 3. Searchable Metadata
   tags:
     - commerce
