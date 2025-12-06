@@ -27,7 +27,7 @@ spec:
   type: service
   lifecycle: production
   # 5. Ownership
-  owner: team-ecommerce
+  owner: perf-group-1
   # 6. Relationships (Dependencies and Grouping)
   system: commerce-system
   subcomponentOf: backend-services
