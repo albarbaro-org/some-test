@@ -1,0 +1,41 @@
+# catalog-info.yaml
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  # 1. Identity and Discovery
+  name: order-processor
+  description: Handles all commerce order placement and state transitions.
+  # 2. Annotations (Links to External Tools)
+  annotations:
+    # Links to the GitHub repository where the code lives
+    github.com/project-slug: acme-corp/order-processor
+    # Links to the CI/CD pipeline in Jenkins
+    jenkins.io/job-full-name: team-ecom/order-processor-pipeline
+    # Links to the monitoring dashboard in Grafana
+    grafana/dashboard-id: 12345
+  # 3. Searchable Metadata
+  tags:
+    - commerce
+    - microservice
+    - golang
+  links:
+    - url: https://docs.acme.com/order-processor
+      title: Production Docs
+      icon: docs
+spec:
+  # 4. Technical Details
+  type: service
+  lifecycle: production
+  # 5. Ownership
+  owner: team-ecommerce
+  # 6. Relationships (Dependencies and Grouping)
+  system: commerce-system
+  subcomponentOf: backend-services
+  providesApis:
+    - order-api-v1
+  consumesApis:
+    - inventory-service-api
+    - payment-gateway-api
+  dependsOn:
+    - resource:database/order-db
+    - resource:pubsub-topic/order-events
