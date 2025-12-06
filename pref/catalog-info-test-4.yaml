@@ -26,12 +26,3 @@ spec:
   owner: group:default/perf-group-1
   # 6. Relationships (Dependencies and Grouping)
   system: commerce-system
-  subcomponentOf: backend-services
-  providesApis:
-    - order-api-v1
-  consumesApis:
-    - inventory-service-api
-    - payment-gateway-api
-  dependsOn:
-    - resource:database/order-db
-    - resource:pubsub-topic/order-events
