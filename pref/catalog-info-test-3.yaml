@@ -23,7 +23,7 @@ spec:
   type: service
   lifecycle: production
   # 5. Ownership
-  owner: perf-group-1
+  owner: group:default/perf-group-1
   # 6. Relationships (Dependencies and Grouping)
   system: commerce-system
   subcomponentOf: backend-services
