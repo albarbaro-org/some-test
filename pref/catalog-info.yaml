@@ -12,7 +12,7 @@ metadata:
     # Links to the CI/CD pipeline in Jenkins
     jenkins.io/job-full-name: team-ecom/order-processor-pipeline
     # Links to the monitoring dashboard in Grafana
-    grafana/dashboard-id: 12345
+    grafana/dashboard-id: "12345"
   # 3. Searchable Metadata
   tags:
     - commerce
