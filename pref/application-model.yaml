@@ -88,8 +88,6 @@ spec:
   # RELATIONSHIP: apiProvidedBy
   # This API is implemented by the payment-gateway-service
   apiProvidedBy: component:payment-gateway-service
-  definition:
-    $text: https://api.acme.com/payment/v1/openapi.yaml
 ---
 # 6. API Definition (Internal API Consumed by the Component)
 # This covers: apiConsumedBy
