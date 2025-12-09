@@ -88,6 +88,8 @@ spec:
   # RELATIONSHIP: apiProvidedBy
   # This API is implemented by the payment-gateway-service
   apiProvidedBy: component:payment-gateway-service
+  definition:
+    $text: https://github.com/APIs-guru/openapi-directory/blob/main/APIs/archive.org/wayback/1.0.0/openapi.yaml
 ---
 # 6. API Definition (Internal API Consumed by the Component)
 # This covers: apiConsumedBy
@@ -105,3 +107,5 @@ spec:
   # This API is consumed by the payment-gateway-service
   apiConsumedBy:
     - component:payment-gateway-service
+  definition:
+    $text: https://github.com/APIs-guru/openapi-directory/blob/main/APIs/archive.org/wayback/1.0.0/openapi.yaml
